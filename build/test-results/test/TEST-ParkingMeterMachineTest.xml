@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ParkingMeterMachineTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-03-23T18:17:27" hostname="MacBook-Pro" time="0.044">
+  <properties/>
+  <testcase name="GIVEN amountToDeduct is equal to insertAmount WHEN getLeftOver is called,THEN return zero change message" classname="ParkingMeterMachineTest" time="0.019"/>
+  <testcase name="GIVEN change is 13 WHEN getDenomination is called,THEN return list of pairs (Pair(10,1),Pair(2,1),Pair(1,1))" classname="ParkingMeterMachineTest" time="0.014"/>
+  <testcase name="GIVEN amountToDeduct is 0 WHEN getLeftOver is called,THEN return free ticket message" classname="ParkingMeterMachineTest" time="0.0"/>
+  <testcase name="GIVEN insertAmount is less than 0 WHEN getLeftOver is called,THEN return negative amount message" classname="ParkingMeterMachineTest" time="0.0"/>
+  <testcase name="GIVEN amountToDeduct is more than insertAmount WHEN getLeftOver is called, THEN return insufficient amount message" classname="ParkingMeterMachineTest" time="0.001"/>
+  <testcase name="GIVEN amountToDeduct is 7 and insertAmount is 20 WHEN getLeftOver is called,THEN correct message is shown with right format" classname="ParkingMeterMachineTest" time="0.01"/>
+  <testcase name="GIVEN amountToDeduct is less than 0 WHEN getLeftOver is called,THEN return negative amount message" classname="ParkingMeterMachineTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
